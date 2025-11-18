@@ -1,0 +1,99 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.0.4",
+  "pathMappings": {
+    "@demo/*": [
+      "libs/*/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package.json",
+        "hash": "10302597517101237440"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "6327195053727454213"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15187240534476784581"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "3822830590862627288"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10182905550966771065"
+      },
+      {
+        "file": "nx.json",
+        "hash": "920257427357887242"
+      }
+    ],
+    "projectFileMap": {
+      "demo-app": [
+        {
+          "file": "apps/demo-app/jest.config.ts",
+          "hash": "17210195544783501507",
+          "deps": [
+            "npm:jest"
+          ]
+        },
+        {
+          "file": "apps/demo-app/project.json",
+          "hash": "8464874513719700629"
+        },
+        {
+          "file": "apps/demo-app/src/database.spec.ts",
+          "hash": "6019024139339139187"
+        },
+        {
+          "file": "apps/demo-app/src/database.ts",
+          "hash": "7652745448450135177",
+          "deps": [
+            "npm:@electric-sql/pglite"
+          ]
+        },
+        {
+          "file": "apps/demo-app/src/main.spec.ts",
+          "hash": "2145041589886856076"
+        },
+        {
+          "file": "apps/demo-app/src/main.ts",
+          "hash": "17491069821881295113"
+        },
+        {
+          "file": "apps/demo-app/src/mocks/handlers.ts",
+          "hash": "14643480335161079273",
+          "deps": [
+            "npm:msw"
+          ]
+        },
+        {
+          "file": "apps/demo-app/src/mocks/server.ts",
+          "hash": "12004191260233259471",
+          "deps": [
+            "npm:msw"
+          ]
+        },
+        {
+          "file": "apps/demo-app/src/setupTests.ts",
+          "hash": "8485268829576586399"
+        },
+        {
+          "file": "apps/demo-app/tsconfig.app.json",
+          "hash": "13673066467696746073"
+        },
+        {
+          "file": "apps/demo-app/tsconfig.spec.json",
+          "hash": "7929777292266070859"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "7196919064455558980"
+}

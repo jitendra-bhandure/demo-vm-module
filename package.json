@@ -1,0 +1,26 @@
+{
+  "name": "demo-nx-project",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "nx build demo-app",
+    "test": "nx test demo-app",
+    "lint": "nx lint demo-app"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.3.14",
+    "@nx/jest": "22.0.4",
+    "@nx/js": "22.0.4",
+    "@nx/node": "22.0.4",
+    "@nx/workspace": "22.0.4",
+    "@types/jest": "30.0.0",
+    "@types/node": "24.10.1",
+    "jest": "30.2.0",
+    "msw": "2.12.2",
+    "nx": "22.0.4",
+    "ts-jest": "29.4.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
+  }
+}

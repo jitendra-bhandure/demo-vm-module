@@ -1,0 +1,116 @@
+{
+  "apps/demo-app": {
+    "root": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.runInBand": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.configurations.ci.coverage": [
+      "apps/demo-app/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}
